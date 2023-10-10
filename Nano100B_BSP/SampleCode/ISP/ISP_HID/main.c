@@ -8,6 +8,8 @@
  * @note
  * Copyright (C) 2014 Nuvoton Technology Corp. All rights reserved.
  ******************************************************************************/
+ // JUST TO TEST
+ 
 #include <stdio.h>
 #include "Nano100Series.h"
 #include "hid_transfer.h"
