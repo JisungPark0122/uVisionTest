@@ -1,0 +1,182 @@
+Component: ARM Compiler 5.99 update 4 (build 402) Tool: armlink [5b6802]
+
+==============================================================================
+
+Small function inlining results
+
+Inlined total of 0 calls.
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x00000055
+
+  Load Region LR_1 (Base: 0x00000000, Size: 0x00000ff4, Max: 0xffffffff, ABSOLUTE)
+
+    Execution Region ER_RO (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x00000ea8, Max: 0xffffffff, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000000   0x00000000   0x00000040   Data   RO          130    RESET               startup_nano100series_user.o
+    0x00000040   0x00000040   0x00000000   Code   RO          758  * .ARM.Collect$$$$00000000  mc_p.l(entry.o)
+    0x00000040   0x00000040   0x00000004   Code   RO          763    .ARM.Collect$$$$00000001  mc_p.l(entry2.o)
+    0x00000044   0x00000044   0x00000004   Code   RO          766    .ARM.Collect$$$$00000004  mc_p.l(entry5.o)
+    0x00000048   0x00000048   0x00000000   Code   RO          768    .ARM.Collect$$$$00000008  mc_p.l(entry7b.o)
+    0x00000048   0x00000048   0x00000000   Code   RO          770    .ARM.Collect$$$$0000000A  mc_p.l(entry8b.o)
+    0x00000048   0x00000048   0x00000008   Code   RO          771    .ARM.Collect$$$$0000000B  mc_p.l(entry9a.o)
+    0x00000050   0x00000050   0x00000000   Code   RO          773    .ARM.Collect$$$$0000000D  mc_p.l(entry10a.o)
+    0x00000050   0x00000050   0x00000000   Code   RO          775    .ARM.Collect$$$$0000000F  mc_p.l(entry11a.o)
+    0x00000050   0x00000050   0x00000004   Code   RO          764    .ARM.Collect$$$$00002712  mc_p.l(entry2.o)
+    0x00000054   0x00000054   0x00000044   Code   RO          131  * .text               startup_nano100series_user.o
+    0x00000098   0x00000098   0x0000002a   Code   RO          759    .text               mc_p.l(uidiv.o)
+    0x000000c2   0x000000c2   0x00000028   Code   RO          761    .text               mc_p.l(memseta.o)
+    0x000000ea   0x000000ea   0x00000002   PAD
+    0x000000ec   0x000000ec   0x00000024   Code   RO          777    .text               mc_p.l(init.o)
+    0x00000110   0x00000110   0x00000058   Code   RO          633    i.CLK_SysTickDelay  clk.o
+    0x00000168   0x00000168   0x00000028   Code   RO          634    i.CLK_WaitClockReady  clk.o
+    0x00000190   0x00000190   0x00000018   Code   RO          429    i.Checksum          isp_user.o
+    0x000001a8   0x000001a8   0x00000024   Code   RO          288    i.EP2_Handler       hid_transfer.o
+    0x000001cc   0x000001cc   0x0000002c   Code   RO          289    i.EP3_Handler       hid_transfer.o
+    0x000001f8   0x000001f8   0x0000001a   Code   RO          430    i.EraseAP           isp_user.o
+    0x00000212   0x00000212   0x00000002   PAD
+    0x00000214   0x00000214   0x00000028   Code   RO          357    i.FMC_Erase_User    fmc_user.o
+    0x0000023c   0x0000023c   0x0000002c   Code   RO          358    i.FMC_Read_User     fmc_user.o
+    0x00000268   0x00000268   0x00000028   Code   RO          359    i.FMC_Write_User    fmc_user.o
+    0x00000290   0x00000290   0x00000026   Code   RO          474    i.GetApromSize      targetdev.o
+    0x000002b6   0x000002b6   0x00000002   PAD
+    0x000002b8   0x000002b8   0x00000058   Code   RO          475    i.GetDataFlashInfo  targetdev.o
+    0x00000310   0x00000310   0x00000050   Code   RO          290    i.HID_ClassRequest  hid_transfer.o
+    0x00000360   0x00000360   0x00000038   Code   RO          291    i.HID_Init          hid_transfer.o
+    0x00000398   0x00000398   0x00000278   Code   RO          431    i.ParseCmd          isp_user.o
+    0x00000610   0x00000610   0x0000001c   Code   RO          360    i.ReadData          fmc_user.o
+    0x0000062c   0x0000062c   0x00000068   Code   RO          216    i.SYS_Init          main.o
+    0x00000694   0x00000694   0x0000008c   Code   RO          500    i.USBD_CtrlIn       usbd.o
+    0x00000720   0x00000720   0x00000054   Code   RO          501    i.USBD_CtrlOut      usbd.o
+    0x00000774   0x00000774   0x000000e4   Code   RO          502    i.USBD_GetDescriptor  usbd.o
+    0x00000858   0x00000858   0x00000010   Code   RO          503    i.USBD_GetSetupPacket  usbd.o
+    0x00000868   0x00000868   0x000000dc   Code   RO          292    i.USBD_IRQHandler   hid_transfer.o
+    0x00000944   0x00000944   0x00000010   Code   RO          293    i.USBD_MemCopy      hid_transfer.o
+    0x00000954   0x00000954   0x00000010   Code   RO          505    i.USBD_MemCopy      usbd.o
+    0x00000964   0x00000964   0x00000038   Code   RO          506    i.USBD_Open         usbd.o
+    0x0000099c   0x0000099c   0x00000068   Code   RO          507    i.USBD_PrepareCtrlIn  usbd.o
+    0x00000a04   0x00000a04   0x0000001c   Code   RO          508    i.USBD_PrepareCtrlOut  usbd.o
+    0x00000a20   0x00000a20   0x0000005c   Code   RO          509    i.USBD_ProcessSetupPacket  usbd.o
+    0x00000a7c   0x00000a7c   0x0000002c   Code   RO          294    i.USBD_SetStall     hid_transfer.o
+    0x00000aa8   0x00000aa8   0x000001e4   Code   RO          512    i.USBD_StandardRequest  usbd.o
+    0x00000c8c   0x00000c8c   0x00000024   Code   RO          513    i.USBD_Start        usbd.o
+    0x00000cb0   0x00000cb0   0x00000038   Code   RO          514    i.USBD_SwReset      usbd.o
+    0x00000ce8   0x00000ce8   0x0000004c   Code   RO          432    i.UpdateConfig      isp_user.o
+    0x00000d34   0x00000d34   0x0000001c   Code   RO          361    i.WriteData         fmc_user.o
+    0x00000d50   0x00000d50   0x0000000e   Code   RO          781    i.__scatterload_copy  mc_p.l(handlers.o)
+    0x00000d5e   0x00000d5e   0x00000002   Code   RO          782    i.__scatterload_null  mc_p.l(handlers.o)
+    0x00000d60   0x00000d60   0x0000000e   Code   RO          783    i.__scatterload_zeroinit  mc_p.l(handlers.o)
+    0x00000d6e   0x00000d6e   0x00000002   PAD
+    0x00000d70   0x00000d70   0x00000118   Code   RO          217    i.main              main.o
+    0x00000e88   0x00000e88   0x00000020   Data   RO          779    Region$$Table       anon$$obj.o
+
+
+    Execution Region ER_RW (Exec base: 0x20000000, Load base: 0x00000ea8, Size: 0x0000014c, Max: 0xffffffff, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000000   0x00000ea8   0x00000008   Data   RW            6    .data               system_nano100series.o
+    0x20000008   0x00000eb0   0x0000001d   Data   RW          137    .data               descriptors.o
+    0x20000025   0x00000ecd   0x00000012   Data   RW          138    .data               descriptors.o
+    0x20000037   0x00000edf   0x00000029   Data   RW          139    .data               descriptors.o
+    0x20000060   0x00000f08   0x00000004   Data   RW          140    .data               descriptors.o
+    0x20000064   0x00000f0c   0x00000010   Data   RW          141    .data               descriptors.o
+    0x20000074   0x00000f1c   0x00000010   Data   RW          142    .data               descriptors.o
+    0x20000084   0x00000f2c   0x00000010   Data   RW          143    .data               descriptors.o
+    0x20000094   0x00000f3c   0x0000000c   Data   RW          144    .data               descriptors.o
+    0x200000a0   0x00000f48   0x0000000c   Data   RW          145    .data               descriptors.o
+    0x200000ac   0x00000f54   0x0000000c   Data   RW          146    .data               descriptors.o
+    0x200000b8   0x00000f60   0x00000018   Data   RW          147    .data               descriptors.o
+    0x200000d0   0x00000f78   0x00000001   Data   RW          297    .data               hid_transfer.o
+    0x200000d1   0x00000f79   0x00000003   PAD
+    0x200000d4   0x00000f7c   0x0000002c   Data   RW          434    .data               isp_user.o
+    0x20000100   0x00000fa8   0x0000004c   Data   RW          515    .data               usbd.o
+
+
+    Execution Region ER_ZI (Exec base: 0x2000014c, Load base: 0x00000ff4, Size: 0x00000784, Max: 0xffffffff, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x2000014c        -       0x00000040   Zero   RW          295    .bss                hid_transfer.o
+    0x2000018c        -       0x00000240   Zero   RW          433    .bss                isp_user.o
+    0x200003cc   0x00000ff4   0x00000004   PAD
+    0x200003d0        -       0x00000500   Zero   RW          128    STACK               startup_nano100series_user.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+       128         24          0          0          0       1688   clk.o
+         0          0          0        200          0       6735   descriptors.o
+       180         14          0          0          0       2953   fmc_user.o
+       496         44          0          1         64      10102   hid_transfer.o
+       758         38          0         44        576       4728   isp_user.o
+       384         92          0          0          0      29542   main.o
+        68         28         64          0       1280        640   startup_nano100series_user.o
+         0          0          0          8          0       4890   system_nano100series.o
+       126         10          0          0          0       1498   targetdev.o
+      1340        116          0         76          0      14701   usbd.o
+
+    ----------------------------------------------------------------------
+      3484        366         96        332       1924      77477   Object Totals
+         0          0         32          0          0          0   (incl. Generated)
+         4          0          0          3          4          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+         0          0          0          0          0          0   entry.o
+         0          0          0          0          0          0   entry10a.o
+         0          0          0          0          0          0   entry11a.o
+         8          4          0          0          0          0   entry2.o
+         4          0          0          0          0          0   entry5.o
+         0          0          0          0          0          0   entry7b.o
+         0          0          0          0          0          0   entry8b.o
+         8          4          0          0          0          0   entry9a.o
+        30          0          0          0          0          0   handlers.o
+        36          8          0          0          0         68   init.o
+        40          0          0          0          0        108   memseta.o
+        42          0          0          0          0         68   uidiv.o
+
+    ----------------------------------------------------------------------
+       172         16          0          0          0        244   Library Totals
+         4          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+       168         16          0          0          0        244   mc_p.l
+
+    ----------------------------------------------------------------------
+       172         16          0          0          0        244   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+      3656        382         96        332       1924      76421   Grand Totals
+      3656        382         96        332       1924      76421   ELF Image Totals
+      3656        382         96        332          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                 3752 (   3.66kB)
+    Total RW  Size (RW Data + ZI Data)              2256 (   2.20kB)
+    Total ROM Size (Code + RO Data + RW Data)       4084 (   3.99kB)
+
+==============================================================================
+

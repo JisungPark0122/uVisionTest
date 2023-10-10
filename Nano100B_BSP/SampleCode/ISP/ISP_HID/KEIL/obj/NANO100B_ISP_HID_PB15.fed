@@ -1,0 +1,56 @@
+;#<FEEDBACK># ARM Linker, 5990402: Last Updated: Tue Oct 10 08:48:02 2023
+;VERSION 0.2
+;FILE clk.o
+CLK_DisableCKO <= USED 0
+CLK_DisableModuleClock <= USED 0
+CLK_DisablePLL <= USED 0
+CLK_DisableSysTick <= USED 0
+CLK_DisableXtalRC <= USED 0
+CLK_EnableCKO <= USED 0
+CLK_EnableModuleClock <= USED 0
+CLK_EnablePLL <= USED 0
+CLK_EnableSysTick <= USED 0
+CLK_EnableXtalRC <= USED 0
+CLK_GetCPUFreq <= USED 0
+CLK_GetHCLKFreq <= USED 0
+CLK_GetHXTFreq <= USED 0
+CLK_GetLXTFreq <= USED 0
+CLK_GetPLLClockFreq <= USED 0
+CLK_Idle <= USED 0
+CLK_PowerDown <= USED 0
+CLK_SetCoreClock <= USED 0
+CLK_SetHCLK <= USED 0
+CLK_SetModuleClock <= USED 0
+__asm___5_clk_c_9b5832dc____REV16 <= USED 0
+__asm___5_clk_c_9b5832dc____REVSH <= USED 0
+;FILE descriptors.o
+__asm___13_descriptors_c_e97ef57b____REV16 <= USED 0
+__asm___13_descriptors_c_e97ef57b____REVSH <= USED 0
+;FILE fmc_user.o
+__asm___10_FMC_USER_c_825b21e5____REV16 <= USED 0
+__asm___10_FMC_USER_c_825b21e5____REVSH <= USED 0
+;FILE hid_transfer.o
+__asm___14_hid_transfer_c_6dbc9832____REV16 <= USED 0
+__asm___14_hid_transfer_c_6dbc9832____REVSH <= USED 0
+;FILE isp_user.o
+__asm___10_ISP_USER_c_EraseAP____REV16 <= USED 0
+__asm___10_ISP_USER_c_EraseAP____REVSH <= USED 0
+;FILE main.o
+__asm___6_main_c_SYS_Init____REV16 <= USED 0
+__asm___6_main_c_SYS_Init____REVSH <= USED 0
+;FILE startup_nano100series_user.o
+;FILE system_nano100series.o
+SysGet_HCLKFreq <= USED 0
+SysGet_PLLClockFreq <= USED 0
+SystemCoreClockUpdate <= USED 0
+__asm___22_system_Nano100Series_c_5d646a67____REV16 <= USED 0
+__asm___22_system_Nano100Series_c_5d646a67____REVSH <= USED 0
+;FILE targetdev.o
+__asm___11_targetdev_c_11f79a65____REV16 <= USED 0
+__asm___11_targetdev_c_11f79a65____REVSH <= USED 0
+;FILE usbd.o
+USBD_LockEpStall <= USED 0
+USBD_SetConfigCallback <= USED 0
+USBD_SetVendorRequest <= USED 0
+__asm___6_usbd_c_4b498b38____REV16 <= USED 0
+__asm___6_usbd_c_4b498b38____REVSH <= USED 0

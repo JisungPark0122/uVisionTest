@@ -1,0 +1,295 @@
+Dependencies for Project 'ISP_HID', Target 'ISP_HID': (DO NOT MODIFY !)
+CompilerVersion: 5990402::V5.99 update 4 (build 402)::.\ARMCC_ISS
+F (..\..\..\..\Library\Device\Nuvoton\Nano100Series\Source\system_Nano100Series.c)(0x6524AD07)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I .\ -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include -I ..\..\..\..\Library\StdDriver\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\?ST\STM32F10x-D__UVISION_VERSION="531"-o .\obj\system_nano100series.o --list_dir ".\\lst\\" --list --omf_browse .\obj\system_nano100series.crf --depend .\obj\system_nano100series.d)
+I (C:\Keil_v5\ARM\ARMCC_ISS\include\stdint.h)(0x5D2ED0FA)
+I (..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include\Nano100Series.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\cmsis_armcc.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x6524AD07)
+I (..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include\system_Nano100Series.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\dac.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\lcd.h)(0x6524AD07)
+F (..\startup_Nano100Series_user.s)(0x6524AD07)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\?ST\STM32F10x--pd "__UVISION_VERSION SETA 531"--list .\lst\startup_nano100series_user.lst --xref -o .\obj\startup_nano100series_user.o --depend .\obj\startup_nano100series_user.d)
+F (..\descriptors.c)(0x6524AD07)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I .\ -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include -I ..\..\..\..\Library\StdDriver\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\?ST\STM32F10x-D__UVISION_VERSION="531"-o .\obj\descriptors.o --list_dir ".\\lst\\" --list --omf_browse .\obj\descriptors.crf --depend .\obj\descriptors.d)
+I (..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include\Nano100Series.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x6524AD07)
+I (C:\Keil_v5\ARM\ARMCC_ISS\include\stdint.h)(0x5D2ED0FA)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\cmsis_armcc.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x6524AD07)
+I (..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include\system_Nano100Series.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\dac.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\lcd.h)(0x6524AD07)
+I (..\hid_transfer.h)(0x6524AD07)
+F (..\main.c)(0x6524AD07)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I .\ -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include -I ..\..\..\..\Library\StdDriver\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\?ST\STM32F10x-D__UVISION_VERSION="531"-o .\obj\main.o --list_dir ".\\lst\\" --list --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (C:\Keil_v5\ARM\ARMCC_ISS\include\stdio.h)(0x5D2ED0FA)
+I (..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include\Nano100Series.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x6524AD07)
+I (C:\Keil_v5\ARM\ARMCC_ISS\include\stdint.h)(0x5D2ED0FA)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\cmsis_armcc.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x6524AD07)
+I (..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include\system_Nano100Series.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\dac.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\lcd.h)(0x6524AD07)
+I (..\hid_transfer.h)(0x6524AD07)
+I (..\targetdev.h)(0x6524AD07)
+I (..\ISP_USER.h)(0x6524AD07)
+I (..\FMC_USER.h)(0x6524AD07)
+F (..\hid_transfer.c)(0x6524AD07)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I .\ -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include -I ..\..\..\..\Library\StdDriver\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\?ST\STM32F10x-D__UVISION_VERSION="531"-o .\obj\hid_transfer.o --list_dir ".\\lst\\" --list --omf_browse .\obj\hid_transfer.crf --depend .\obj\hid_transfer.d)
+I (C:\Keil_v5\ARM\ARMCC_ISS\include\stdio.h)(0x5D2ED0FA)
+I (C:\Keil_v5\ARM\ARMCC_ISS\include\string.h)(0x5D2ED0FA)
+I (..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include\Nano100Series.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x6524AD07)
+I (C:\Keil_v5\ARM\ARMCC_ISS\include\stdint.h)(0x5D2ED0FA)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\cmsis_armcc.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x6524AD07)
+I (..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include\system_Nano100Series.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\dac.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\lcd.h)(0x6524AD07)
+I (..\hid_transfer.h)(0x6524AD07)
+F (..\FMC_USER.c)(0x6524AD07)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I .\ -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include -I ..\..\..\..\Library\StdDriver\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\?ST\STM32F10x-D__UVISION_VERSION="531"-o .\obj\fmc_user.o --list_dir ".\\lst\\" --list --omf_browse .\obj\fmc_user.crf --depend .\obj\fmc_user.d)
+I (C:\Keil_v5\ARM\ARMCC_ISS\include\stdio.h)(0x5D2ED0FA)
+I (..\FMC_USER.h)(0x6524AD07)
+I (..\targetdev.h)(0x6524AD07)
+I (..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include\Nano100Series.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x6524AD07)
+I (C:\Keil_v5\ARM\ARMCC_ISS\include\stdint.h)(0x5D2ED0FA)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\cmsis_armcc.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x6524AD07)
+I (..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include\system_Nano100Series.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\dac.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\lcd.h)(0x6524AD07)
+I (..\ISP_USER.h)(0x6524AD07)
+F (..\ISP_USER.c)(0x6524AD07)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I .\ -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include -I ..\..\..\..\Library\StdDriver\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\?ST\STM32F10x-D__UVISION_VERSION="531"-o .\obj\isp_user.o --list_dir ".\\lst\\" --list --omf_browse .\obj\isp_user.crf --depend .\obj\isp_user.d)
+I (C:\Keil_v5\ARM\ARMCC_ISS\include\stdio.h)(0x5D2ED0FA)
+I (C:\Keil_v5\ARM\ARMCC_ISS\include\string.h)(0x5D2ED0FA)
+I (..\ISP_USER.h)(0x6524AD07)
+I (..\FMC_USER.h)(0x6524AD07)
+I (..\targetdev.h)(0x6524AD07)
+I (..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include\Nano100Series.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x6524AD07)
+I (C:\Keil_v5\ARM\ARMCC_ISS\include\stdint.h)(0x5D2ED0FA)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\cmsis_armcc.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x6524AD07)
+I (..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include\system_Nano100Series.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\dac.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\lcd.h)(0x6524AD07)
+F (..\targetdev.c)(0x6524AD07)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I .\ -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include -I ..\..\..\..\Library\StdDriver\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\?ST\STM32F10x-D__UVISION_VERSION="531"-o .\obj\targetdev.o --list_dir ".\\lst\\" --list --omf_browse .\obj\targetdev.crf --depend .\obj\targetdev.d)
+I (..\targetdev.h)(0x6524AD07)
+I (..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include\Nano100Series.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x6524AD07)
+I (C:\Keil_v5\ARM\ARMCC_ISS\include\stdint.h)(0x5D2ED0FA)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\cmsis_armcc.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x6524AD07)
+I (..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include\system_Nano100Series.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\dac.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\lcd.h)(0x6524AD07)
+I (..\ISP_USER.h)(0x6524AD07)
+I (..\FMC_USER.h)(0x6524AD07)
+F (..\..\..\..\Library\StdDriver\src\usbd.c)(0x6524AD07)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I .\ -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include -I ..\..\..\..\Library\StdDriver\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\?ST\STM32F10x-D__UVISION_VERSION="531"-o .\obj\usbd.o --list_dir ".\\lst\\" --list --omf_browse .\obj\usbd.crf --depend .\obj\usbd.d)
+I (C:\Keil_v5\ARM\ARMCC_ISS\include\string.h)(0x5D2ED0FA)
+I (..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include\Nano100Series.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x6524AD07)
+I (C:\Keil_v5\ARM\ARMCC_ISS\include\stdint.h)(0x5D2ED0FA)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\cmsis_armcc.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x6524AD07)
+I (..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include\system_Nano100Series.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\dac.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\lcd.h)(0x6524AD07)
+F (..\..\..\..\Library\StdDriver\src\clk.c)(0x6524AD07)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I .\ -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include -I ..\..\..\..\Library\StdDriver\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\?ST\STM32F10x-D__UVISION_VERSION="531"-o .\obj\clk.o --list_dir ".\\lst\\" --list --omf_browse .\obj\clk.crf --depend .\obj\clk.d)
+I (..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include\Nano100Series.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x6524AD07)
+I (C:\Keil_v5\ARM\ARMCC_ISS\include\stdint.h)(0x5D2ED0FA)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\cmsis_armcc.h)(0x6524AD07)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x6524AD07)
+I (..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include\system_Nano100Series.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\dac.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x6524AD07)
+I (..\..\..\..\Library\StdDriver\inc\lcd.h)(0x6524AD07)

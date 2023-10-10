@@ -1,0 +1,15 @@
+--cpu Cortex-M0
+".\obj\system_nano100series.o"
+".\obj\startup_nano100series_user.o"
+".\obj\descriptors.o"
+".\obj\main.o"
+".\obj\hid_transfer.o"
+".\obj\fmc_user.o"
+".\obj\isp_user.o"
+".\obj\targetdev.o"
+".\obj\usbd.o"
+".\obj\clk.o"
+--library_type=microlib --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict
+--map --first='startup_Nano100Series_user.o(RESET)' --datacompressor=off --info=inline --entry Reset_Handler --summary_stderr --info summarysizes --map --load_addr_map_info
+--info sizes --info totals
+--list ".\lst\NANO100B_ISP_HID_PB15.map" -o .\obj\NANO100B_ISP_HID_PB15.axf
